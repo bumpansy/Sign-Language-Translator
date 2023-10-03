@@ -40,7 +40,7 @@ with tab1:
 
     
     with col2:
-        st.image('App\\assets\\asl.jpg')
+        st.image('App/assets/asl.jpg')
 
 
 with tab4:
