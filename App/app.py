@@ -13,7 +13,7 @@ from tensorflow.keras.models import load_model
 @st.cache_resource
 def load_model():
     model = tf.keras.saving.load_model(
-        'Models\\asl_model_1.h5', custom_objects=None, compile=False, safe_mode=True
+        'Models/asl_model_1.h5', custom_objects=None, compile=False, safe_mode=True
     )
     return model
 
